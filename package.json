@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A dynamic portfolio generator with React frontend and Express backend",
   "main": "index.js",
+  "license": "MIT",
   "scripts": {
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "server": "cd backend && npm run dev",

@@ -12,7 +12,7 @@ connectDB();
 // Middleware
 app.use(cors({
   origin: process.env.NODE_ENV === 'production' 
-    ? ['https://portfolio-generator.vercel.app'] // Replace with your actual Vercel URL
+    ? ['https://portfolio-generator.vercel.app'] // Update this with your actual Vercel URL after deployment
     : ['http://localhost:3001', 'http://localhost:3000'],
   credentials: true
 }));
